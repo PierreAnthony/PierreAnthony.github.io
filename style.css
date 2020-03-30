@@ -115,3 +115,113 @@ h1, h2, h3, h4, h5, h6 {
     height: 75px;
     width: 75px;
 }
+
+/* Main Wrapper */
+
+#main-wrapper {
+    background: #FFF;
+    flex: 3;
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+#main-wrapper .details {
+    height: 140px;
+    padding-top: 60px;
+}
+
+#main-wrapper .details h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: -12px;
+}
+
+#main-wrapper .details .first-name {
+    color: #E3CB0B;
+    font-weight: 900;
+}
+
+#main-wrapper .details h3 {
+    margin-bottom: 3px;
+}
+
+#main-wrapper .details .small-border {
+    width: 50px;
+    height: 2px;
+    background-color: #E3CB0B;
+}
+
+#main-wrapper .main-info .title-icons {
+    color: #E3CB0B;
+    margin-right: 20px;
+}
+
+#main-wrapper article h2 {
+    border-bottom: 2px solid #E3CB0B;
+    text-transform: uppercase;
+}
+
+#main-wrapper .item {
+    display: flex;
+}
+
+#main-wrapper .item .period {
+    font-size: .9em;
+    width: 120px;
+    flex-wrap: wrap;
+    margin-left: -3px;
+}
+
+#main-wrapper .item .area {
+    color: #AAA;
+    font-style: oblique;
+}
+
+#main-wrapper .item .description {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: -6px;
+}
+
+#main-wrapper .item .listing {
+    display: flex;
+    margin-top: -20px;
+}
+
+#main-wrapper .item .far,
+#main-wrapper .item .fas {
+    color: #E3CB0B;
+    margin-left: -10px;
+    margin-top: 2px;
+}
+
+#main-wrapper .item h4 {
+    margin-bottom: -20px;
+}
+
+#main-wrapper .item h5 {
+    font-size: 1em;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: -5px;
+}
+
+#main-wrapper article .reference {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#main-wrapper article .reference-details {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#main-wrapper article .reference-details-1 {
+    margin-right: 20px;
+}
+
+#main-wrapper article .reference-details-2 {
+    margin-right: 20px;
+}
