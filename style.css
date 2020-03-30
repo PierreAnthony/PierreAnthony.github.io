@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('font/Roboto-Light-webfont.eot');
+    src: url('font/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Roboto-Light-webfont.woff2') format('woff2'),
+         url('font/Roboto-Light-webfont.woff') format('woff'),
+         url('font/Roboto-Light-webfont.ttf') format('truetype'),
+         url('font/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Main */
+
+body {
+    font-family: 'robotolight', 'Trebuchet MS', Arial, sans-serif;
+    color: #545E6C;
+    background: #EEE;
+    font-size: .95em;
+    padding-top: 75px;
+    width: 70%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 200px;
+    box-shadow: 4px 4px 6px silver;
+}
+
+/* Side Wrapper */
+
+#side-wrapper {
+    background: #455A64;
+    color: #FFF;
+    min-width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1.2;
+}
+
+#side-wrapper h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #E3CB0B;
+    color: #455A64;
+}
+
+#side-wrapper .picture-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side-wrapper .picture-container .picture {
+    border-radius: 100%;
+    height: 160px;
+    width: 160px;
+}
+
+#side-wrapper .contact-container ul {
+    list-style-type: none;
+    padding-right: 20px;
+    text-align: right;
+}
+
+#side-wrapper .contact-container .fas,
+#side-wrapper .contact-container .fab {
+    margin-left: 10px;
+    font-size: 1.4em;
+}
+
+#side-wrapper .contact-container li {
+    margin-bottom: 15px;
+}
+
+#side-wrapper .contact-container .phone {
+    padding-right: 5px;
+}
+
+#side-wrapper .contact-container a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#side-wrapper .contact-container a:hover {
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+#side-wrapper .about-container {
+    margin-top: 50px;
+}
+
+#side-wrapper .about-container p {
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#side-wrapper .hobby-container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+#side-wrapper .hobby-container img {
+    height: 75px;
+    width: 75px;
+}
