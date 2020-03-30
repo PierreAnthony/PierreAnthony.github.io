@@ -225,3 +225,43 @@ h1, h2, h3, h4, h5, h6 {
 #main-wrapper article .reference-details-2 {
     margin-right: 20px;
 }
+
+@media all and (max-width: 600px) {
+    body {
+        width: auto;
+        padding-top: 0px;
+    }
+
+    #main-wrapper {
+        padding-left: 40px;
+    }
+
+    #main-wrapper article h2 {
+        margin-top: 50px;
+    }
+
+    #main-wrapper .item {
+        flex-direction: column;
+    }
+
+    #main-wrapper .item .period {
+        width: auto;
+    }
+
+    #main-wrapper article .reference-details {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 601px) and (max-width: 900px) {
+    #main-wrapper .item {
+        flex-direction: column;
+    }
+
+    #main-wrapper .item .period {
+        width: auto;
+    }
+    #main-wrapper article .reference-details {
+        text-align: center;
+    }
+}
